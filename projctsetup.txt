@@ -1,0 +1,20 @@
+# create a git repo 
+# clone that repo into my folder using git bash open 
+# create template.py to create folder structure of all the folder and files
+
+# push the all project structure into git repo
+    git add .
+    git commit -m "folder structure"
+    git push origin main
+
+# if show any error indexlock to solve this 
+    rm -f ./.git/index.lock
+        In your repository directory. The error message is rather explicit as to what causes it typically, so if you have no other git processes running (which is the normal case), go ahead and delete that file
+
+#create virtual envoirment
+# select interpreter
+# activate conda envoirment
+
+# inside requirement.txt 
+    setup all require packages 
+     
